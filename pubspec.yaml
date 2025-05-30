@@ -1,0 +1,35 @@
+name: bucket_collect_game
+description: A simple bucket collect balls game made with Flutter.
+version: 1.0.0
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/red.png
+      - assets/green.png
+      - assets/blue.png
+      - assets/purple.png
+      - assets/bucket.png
+      - assets/bg.png
+      - assets/bg1.png
+      - assets/bg2.png
+      - assets/bg3.png
+      - assets/bg4.png
+      - assets/banner.png
+
+
+  # You can add images later if needed
